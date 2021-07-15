@@ -34,17 +34,16 @@ var comida = [
 comida[1]
 
 // Digite o código que verifica se a variável `soma' é igual a variável `myvar` (testando também o tipo).
-soma == myvar
+soma === myvar
 
 // Digite o código que verifica se a variável `myvar` é menor ou igual à variável `soma`.
 myvar <= soma
 
 // Crie uma função chamada `divisao` que receba como parâmetro dois números, e retorne o resultado da divisão entre eles.
 var x
-function divisao(){
-x = 20 / 4;
+function divisao(X, Y){
+return x / Y;
 }
-
 // Invoque a função criada acima, passando os parâmetros 10 e 2.
-não intendi
+divisao(10, 2);
 ```
