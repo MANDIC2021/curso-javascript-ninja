@@ -43,6 +43,10 @@ valor dessa propriedade a quantidade passada por parâmetro;
 booleano que representa "verdadeiro";
 */
 ?
+pessoa.andar = function(a) {
+    pessoa.caminhouquantosmetros =+ a;
+    pessoa.andando = true
+}
 
 /*
 Adicione um método ao objeto `pessoa` chamado `parar`, que irá modificar o valor
