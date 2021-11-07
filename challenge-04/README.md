@@ -66,6 +66,9 @@ Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
 ?
+carro.obterCor = function(){
+    return carro.cor;
+}
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
