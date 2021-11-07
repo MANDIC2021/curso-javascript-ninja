@@ -14,11 +14,28 @@ var isTruthy = function(a){
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
 ?
+isTruthy(false);
+isTruthy(null);
+isTruthy(undefined);
+isTruthy('');
+isTruthy(0);
+isTruthy(-0);
+isTruthy(NaN);
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 */
 ?
+isTruthy(1);
+isTruthy('Fernando');
+isTruthy([]);
+isTruthy({});
+isTruthy(function () {});
+isTruthy('Curso JS Ninja');
+isTruthy(20 * 30);
+isTruthy(10 + 10);
+isTruthy([1, 2, 3]);
+isTruthy({ a: 1, b: 2 });
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
@@ -33,6 +50,16 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `quantidadePessoas` - Number - zero por padrão
 */
 ?
+var carro = {
+    marca: 'honda',
+    modelo: 'civic',
+    placa: 'BBB-1233',
+    ano: 2020,
+    cor: 'branca',
+    quantasPortas: 4,
+    assentos: 5,
+    quantidadePessoas: 0
+};
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
