@@ -138,9 +138,7 @@ carro.adicionarPessoas = function(numeroPessoas) {
   if (totalPessoas > carro.assentos) {
     return 'Só cabem mais ' + quantasPessoasCabem + pluralOuSingular + '!';
   }
-
   carro.quantidadePessoas += numeroPessoas;
-
   return 'Já temos ' + carro.quantidadePessoas + ' pessoas no carro!'
 };
 
