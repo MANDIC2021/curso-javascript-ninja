@@ -126,7 +126,7 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 citado acima, no lugar de "pessoas".
 */
 ?
-carro.adicionarPessoas = function(a) {    
+carro.adicionarPessoas = function(numeroPessoas) {    
     var totalPessoas = carro.quantidadePessoas + numeroPessoas;
     var quantasPessoasCabem =  carro.assentos - carro.quantidadePessoas;
     var pluralOuSingular = quantasPessoasCabem === 1 ? ' pessoa' : ' pessoas';
