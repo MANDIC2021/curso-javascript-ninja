@@ -66,7 +66,7 @@ Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
 ?
-carro.obterCor = function(){
+carro.mudarCor = function(){
     return carro.cor;
 }
 
@@ -75,15 +75,28 @@ Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
 ?
 
+carro.obterCor = function(){
+    return carro.cor;
+}
+
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
 ?
 
+carro.obterModelo = function(){
+    return carro.modelo;
+}
+
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
 */
 ?
+
+carro.obterMarca = function(){
+    return carro.marca;
+}
+
 
 /*
 Crie um método chamado `obterMarcaModelo`, que retorne:
@@ -91,6 +104,10 @@ Crie um método chamado `obterMarcaModelo`, que retorne:
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
 ?
+
+carro.obterMarcaModelo = function(){
+    return 'Esse carro é um ' + carro.marca + ' ' + carro.modelo;
+}
 
 /*
 Crie um método que irá adicionar pessoas no carro. Esse método terá as
@@ -109,6 +126,10 @@ mostrar quantos assentos ainda podem ser ocupados, com a frase:
 citado acima, no lugar de "pessoas".
 */
 ?
+carro.adicionarPessoas = function(a) {    
+    var totalPessoas = carro.quantidadePessoas + a;
+    
+};
 
 /*
 Agora vamos verificar algumas informações do carro. Para as respostas abaixo,
